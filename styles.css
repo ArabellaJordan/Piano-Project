@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 body{
     width: 100vw;
@@ -21,9 +22,9 @@ h1{
 }
 #container{
     width: 95vw;
-    height: 50vh;
+    height: 70vh;
     background-color: rgb(17, 17, 17);
-    margin: 15vh auto;
+    margin: 5vh auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -40,7 +41,7 @@ h1{
 .white{
     border: 1px solid black;
     background-color: white;
-    height: 30vh;
+    height: 35vh;
     width: calc(80vw/19);
     border-radius: 0 0 3px 3px;
     display: flex;
@@ -60,7 +61,7 @@ h1{
 .black{
     background-color: rgb(17, 17, 17);
     color: whitesmoke;
-    height: 17vh;
+    height: 19vh;
     width: calc(80vw/18);
     border-radius: 0 0 3px 3px;
     box-shadow: 0 1px 3px 0 rgb(150, 147, 147);
@@ -82,12 +83,12 @@ h1{
 }
 /*keys clicked or press*/
 .white:active{
-    height: 29.5vh;
+    height: 34vh;
     background: linear-gradient(rgb(245, 245, 245), rgb(189, 189, 189));
 }
 .black:active{
-    height: 16.5vh;
-    background: linear-gradient(black, rgb(51, 51, 51));
+    height: 18vh;
+    background: linear-gradient(black, rgb(80, 80, 80));
 }
 .transparent:active{
     background: transparent;
