@@ -42,6 +42,11 @@ h1{
     height: 30vh;
     width: calc(80vw/19);
     border-radius: 0 0 3px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5px;
+    font-size: 25px;
 }
 .small{
     position: absolute;
@@ -52,13 +57,37 @@ h1{
     
 }
 .black{
-    background-color: rgb(17, 17, 17);;
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
     height: 17vh;
     width: calc(80vw/18);
     border-radius: 0 0 3px 3px;
     box-shadow: 0 1px 3px 0 rgb(150, 147, 147);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5px;
 }
 .transparent{
     background-color: transparent;
     box-shadow: none;
+}
+/*keys hover*/
+.white:hover, .black:hover{
+    box-shadow: 0 0 1px 2px rgb(96, 151, 235);
+}
+.transparent:hover{
+    box-shadow: none;
+}
+/*keys clicked or press*/
+.white:active{
+    height: 29.5vh;
+    background: linear-gradient(rgb(245, 245, 245), rgb(189, 189, 189));
+}
+.black:active{
+    height: 16.5vh;
+    background: linear-gradient(black, rgb(51, 51, 51));
+}
+.transparent:active{
+    background: transparent;
 }
