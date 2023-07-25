@@ -1,7 +1,6 @@
 //Keypress===========
 document.addEventListener("keypress", function(event){
     var pressedKey = event.key;
-    this.e
     sound(pressedKey);
 });
 
